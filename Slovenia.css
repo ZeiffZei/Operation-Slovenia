@@ -1,27 +1,70 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Operation Slovenia</title>
-    <link rel="stylesheet" href="Slovenia.css">
-  </head>
-  <body>
-    <div class="login-container">
-      <h2>Please Login in Here!</h2>
-      <form action="#" method="post">
-        <label for="username">Username</label>
-        <input type="text" id="username :" name= "username" placeholder="Username" required>
+.login-container {
+  width: 300px;
+  margin: 100px auto;
+  padding: 20px 40px;
+  background-color: #c6b7f4;
+  border-radius: 50px;
+  box-shadow: 0 0 10px rgba(227, 9, 9, 0.1);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
-        <label for="password">Password</label>
-        <input type="text" id="password :" name= "password" placeholder="Password" required>
-        <label>
-          <input type="checkbox" name="remember"> Remember me
-        </label>
-        <button type="submit">Login</button>
-        <p><a href="#">Forgot Password? </a></p>
-        <p>Not a Member?<a href="#">Sign Up Now </a>.</p>
-      </form>
-    </div>
-  </body>
-</html>
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    margin-bottom: 20px;
+    border: 3px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 3px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+    margin-bottom: 15px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #2e2f2f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #719fd0;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    color: #522430ec;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .login-container {
+    width: 90%;
+    margin: 50px auto;
+  }
+
+  input[type="text"], input[type="password"], button[type="submit"] {
+    font-size: 16px;
+  }
+}

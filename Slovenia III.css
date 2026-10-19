@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.judul {
+    color: #2196F3;
+    margin-bottom: 20px;
+}
+
+.tabel-paket {
+    width: 50%;
+    border-collapse:solid;
+    border-spacing: 15px;
+}
+
+.kartu {
+    vertical-align: top;
+    width: 33%;
+    border: 1px solid #ddd;
+    background-color: #fafafa;
+    padding: 0;
+}
+
+.header {
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+}
+
+.header h4 {
+    margin: 0 0 5px 0;
+}
+
+.header p {
+    margin: 0;
+    font-size: 12px;
+}
+
+.header-free {
+    background-color: #2196F3;
+}
+
+.header-premium {
+    background-color: #FF9800;
+}
+
+.header-profesional {
+    background-color: #008000;
+}
+
+.konten {
+    padding: 15px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.konten hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 10px 0;
+}
+
+.btn {
+    width: 100%;
+    padding: 8px;
+    color: white;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.btn-free {
+    background-color: #2196F3;
+}
+
+.btn-premium {
+    background-color: #FF9800;
+}
+
+.btn-profesional {
+    background-color: #008000;
+}
